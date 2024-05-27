@@ -58,7 +58,7 @@
 .home-main {
   position: relative;
   background-image: url(./Assets/hero.jpg);
-  height: 155vh;
+  height: 150vh;
   width: 100%;
   background-repeat: no-repeat; /* Prevents the background image from repeating */
   background-size: cover;
@@ -195,16 +195,17 @@
 }
 @media (min-width: 1024px) {
   .home-main {
-    height: 115vh;
+    height: 115vh !important;
   }
 }
 @media (min-width: 768px) {
   .hero-content {
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-left: 10%;
-    gap: 2rem;
+    gap: 1rem;
     line-height: 1;
   }
+
   .content-2 h1 {
     font-size: 5rem;
   }
@@ -525,10 +526,10 @@
     gap: 4rem !important;
   }
   .graph-svg {
-    width: 100% !important;
+    width: 70% !important;
   }
   .graph-content {
-    width: 100%;
+    width: 70%;
     text-align: left;
   }
 }
