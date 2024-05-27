@@ -44,13 +44,22 @@ const Hero = () => {
               <a href="/">HOME</a>
             </div>
             <div className=" options  ">
-              <a href="/Aboutus">ABOUT</a>
+              <a href="/Aboutus">Secondary Market</a>
             </div>
             <div className=" options ">
-              <a href="/Work">WORK</a>
+              <a href="/Work">About</a>
             </div>
             <div className=" options ">
-              <a href="/Contact">CONTACT</a>
+              <a href="/Contact">News</a>
+            </div>
+            <div className=" options ">
+              <a href="/Contact">Contact</a>
+            </div>
+            <div className=" options ">
+              <a href="/Contact">Login</a>
+            </div>
+            <div className=" options ">
+              <a href="/Contact">Signup</a>
             </div>
           </div>
         )}
